@@ -1,0 +1,1073 @@
+/*GLOBAL*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #f6f6f6;
+}
+
+/*NAVBAR*/
+.navbar {
+  background-color: #363538 !important;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #f6f6f6 !important;
+  font-weight: 600;
+}
+
+.navbar-toggler {
+  background-color: #a8943d !important;
+}
+
+/*BUTTONS*/
+.btn-primary {
+  background-color: #f6f6f6;
+  color: #363538;
+  border: solid #363538;
+}
+
+.btn-primary:hover {
+  background-color: #363538;
+  color: #52d6f4;
+  border: #8d8c8a;
+}
+
+/*HOME PAGE*/
+.homeBkg {
+  background-image: url("../images/homeBkg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #f6f6f6;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.homeBkg h1 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/*TESTIMONIAL SECTION*/
+.testimonialsContainer {
+  width: 80%;
+  margin: auto;
+}
+
+.testimonials, .buildSomething {
+  border-top: 15px solid #f6f6f6;
+}
+
+.fa-play-circle {
+  color: #52d6f4;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 4em;
+  cursor: pointer;
+}
+
+.blockquote-footer {
+  background-color: transparent;
+}
+
+.testimonials .card {
+  border: none;
+  background: transparent;
+}
+
+/*BUILD SOMETHING SECTION*/
+.buildSomething {
+  background-image: url("../images/buildSomethingBkg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.buildSomething h3 {
+  font-size: 3em;
+  color: #363538;
+  text-shadow: 0.5px 0.5px #f6f6f6;
+}
+
+.buildSomething button {
+  color: #363538;
+  background-color: transparent;
+  text-shadow: 0.25px 0.25px #f6f6f6;
+  border: 2px solid #363538;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+/*ABOUT PAGE*/
+.aboutBkg {
+  background-image: url("../images/aboutBkg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #f6f6f6;
+  text-shadow: 1px 1px #353638;
+  text-align: center;
+  font-size: 4em;
+}
+
+/*COMPANY PROFILE SECTION*/
+.companyProfile img {
+  height: auto;
+  width: 30%;
+  float: left;
+  margin-right: 2vw;
+}
+
+.companyProfile {
+  margin: 2vw;
+}
+
+.companyProfile h2 {
+  margin-bottom: 2vw;
+}
+
+/*QUALITIES SECTION*/
+.aboutContainer {
+  width: 85%;
+  margin: auto;
+}
+
+.qualities {
+  clear: both;
+}
+
+.qualitiesGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3vw;
+}
+
+.item1 img,
+.item2 img,
+.item3 img {
+  width: 100%;
+  height: 40vh;
+}
+
+.item1 h4, .item2 h4,
+.item3 h4 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+/*BUILD SOMETHING SECTION*/
+.requestInfo {
+  background-image: url("../images/reuqestInfo.jpg");
+  background-position: 50% 69%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+} 
+
+.requestInfo button {
+  color: #353638;
+  background-color: transparent;
+  border: 2px solid #353638;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  font-size: 2em;
+  text-shadow: 1px 1px white;
+}
+
+/*OUR PROCESS*/
+.ourProcessBkg {
+  background-image: url("../images/inventory2-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #f6f6f6;
+  text-shadow: 2px 2px #363538;
+  font-size: 5.5vw;
+}
+
+/*BUILDING PROCESS*/
+#header {
+  width: 100%;
+  background-color: #363538;
+  color: #f6f6f6;
+  z-index: 2;
+  padding: 10px;
+}
+
+#header h2 {
+  text-align: center;
+}
+
+/*TIMELINE*/
+.timeline {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+  overflow-x: hidden;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #8d8c8a;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.containerProgress {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.containerProgress::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #f6f6f6;
+  border: 4px solid #408697;
+  ;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid #353638;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #353638;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid #363538;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #363538 transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.content {
+  padding: 20px 30px;
+  color: #f6f6f6;
+  background-color: #353638;
+  position: relative;
+  border-radius: 6px;
+}
+
+.content h2 {
+  color: #52d6f4;
+}
+
+/*START THE PROCESS SECTION*/
+.startProcess {
+  background-image: url("../images/keys.jpg");
+  background-position: 50% 69%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+} 
+
+.startProcess button {
+  color: #f6f6f6;
+  text-shadow: 2px 2px #353638;
+  background-color: transparent;
+  border: 2px solid #f6f6f6;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 2.5em;
+}
+
+/*FLOOR PLAN PAGE*/
+.floorPlansBkg {
+  background-image: url("../images/floorPlansBkg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f6f6f6;
+  font-size: 4em;
+  text-shadow: 2px 2px #353638;
+}
+
+.tyler .card h5, .sarah .card h5,
+.joel .card h5 {
+  font-weight: 600;
+}
+
+.tylerContainer {
+  width: 95%;
+  margin: auto;
+}
+
+.resize {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 40vh;
+}
+
+.row {
+  font-size: 1em;
+}
+
+.col-md-6 h3 {
+  color: #52d6f4;
+  background-color: #363538;
+}
+
+.border-primary {
+  border: solid #363538 !important;
+}
+
+.col-md-6 > img,
+.col-md-6 p {
+  padding-top: 1em;
+}
+
+.col-md-6 button {
+  margin-top: 0.5em;
+}
+
+.col-md-6 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.col-md-6 p {
+  text-align: left;
+}
+
+.tyler .cards, .sarah .cards,
+.joel .cards {
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+  white-space: nowrap;
+}
+
+.carousel-inner {
+  max-height: 90vh;
+}
+
+.close {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  z-index: 5;
+  color: white;
+}
+
+.joel {
+  margin-bottom: 1em;
+}
+
+.tyler, .sarah, .joel {
+  margin-top: 1em;
+}
+
+.tyler .card,
+.sarah .card,
+.joel .card {
+  transition: all 0.5s;
+}
+
+/*INVENTORY PAGE*/
+.inventoryBkg {
+  background-image: url("../images/inventoryBkg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.inventoryBkg > h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f6f6f6;
+  text-shadow: 2px 2px #363538;
+  font-size: 4em;
+  white-space: nowrap;
+}
+
+.inventoryMain {
+  background-color: #f6f6f6;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.inventory {
+  display: grid;
+  grid-template-columns: 40% 1fr 10%;
+  grid-gap: 3vw;
+  padding: 0;
+  border: 3px solid #353638;
+  transition: padding 1s;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+}
+
+.inventory img {
+  max-width: 100%;
+  height: auto;
+}
+
+.columnLeft p {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  background-color: #353638;
+  color: #52d6f4;
+}
+
+.columnMiddle h4 {
+  background-color: #353638;
+  color: #52d6f4; 
+  font-size: 2em;
+  text-align: center;
+}
+
+.columnRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.fa-bed, .fa-bath, .fa-warehouse, .fa-ruler {
+  color: #408697;
+  font-size: 2em;
+}
+
+/*CONTACT US PAGE*/
+.contactBkg {
+  background-image: url("../images/contactBkg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #f6f6f6;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+  font-size: 4em;
+}
+
+.contactBkg > h3 {
+  color: #f6f6f6;
+  text-shadow: 2px 2px #363538;
+  font-size: 1.5em;
+}
+
+.contactBkg p {
+  font-size: 0.6em;
+}
+
+main {
+  background-image: url("../images/contactBkg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2vw solid #f6f6f6;
+}
+
+.contactMain {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  width: 80%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.logistics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-left: 2vw;
+}
+
+.address, .phoneNumber, .emailAddress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.address .fa-map-marker-alt, .phoneNumber .fa-phone, 
+.emailAddress .fa-envelope {
+  font-size: 3em;
+  color: #52d6f4;
+  margin-right: 2vw;
+}
+
+.logistics a {
+  text-decoration: none;
+  color: #f6f6f6;
+  font-size: 1.6vw;
+}
+
+.office p:last-child, .phone p:last-child,
+.email p:last-child {
+  font-size: 1.25em;
+  margin-bottom: 2em;
+}
+
+form {
+  width: 97%;
+  border: 5px solid #408697;
+  padding: 10px;
+  background-color: #f6f6f6;
+  margin: 3% 0;
+  background-color: transparent;
+}
+
+label {
+  color: #f6f6f6;
+}
+
+#message {
+  height: 5vw;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: space-evenly;  
+  background-color: #363538;
+  color: #f6f6f6;
+  clear: both;
+}
+
+.contact p:first-child {
+  font-size: 1.5em;
+  color: #52d6f4;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+.contact p:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.copywrite {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.copywrite p {
+  font-weight: normal;
+}
+
+.copywrite span {
+  color: #52d6f4;
+}
+
+.copywrite p {
+  position: relative;
+  top: 20%;
+  font-size: 0.75em;
+}
+
+.socialMedia {  
+  color: #52d6f4;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.socialMedia a {
+  padding-right: 2vw;
+  font-size: 0.75em;
+  color: #f6f6f6;
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 992px) {
+  /*FLOOR PLAN CARDS HOVER EFFECT*/
+ .tyler .card:hover,
+  .sarah .card:hover,
+  .joel .card:hover {
+    transform: scale(1.05);
+  }
+  }
+
+  @media screen and (min-width: 768px) {
+       /*NAVBAR HOVER*/
+       .nav-link:hover {
+        color: #52d6f4 !important;
+      }
+
+    /*HOME PAGE SCROLL*/
+    .homeBkg, .testimonials, .buildSomething {
+    background-attachment: fixed;
+  }
+  
+    /*BOTTOM OF HOME_ABOUT_PROCESS PAGES HOVER EFFECT*/
+    .buildSomething button:hover {
+      color: #52d6f4;
+      background-color: #363538;
+      border: 2px solid #363538;
+      transform: scale(1.1);
+    }
+  
+    .requestInfo button:hover {
+      color: #52d6f4;
+      background-color: #363538;
+      border: 2px solid #363538;
+      transform: scale(1.1);
+    }
+  
+    .startProcess button:hover {
+      color: #52d6f4;
+      background-color: #363538;
+      border: 2px solid #363538;
+      transform: scale(1.1);
+    }
+  
+    /*HOME PAGE PLAY CIRCLE HOVER*/
+    .fa-play-circle:hover {
+      color: #408697;
+      font-size: 4em;
+    }
+  
+    /*CONTACT PAGE FORM BUTTON HOVER*/
+    form .btn-primary:hover {
+      background-color: #363538;
+      color: #52d6f4;
+      border: 2px solid #52d6f4;
+    }
+  
+    /*FOOTER SOCIAL MEDIA HOVER*/
+    .socialMedia a:hover {
+      color: #52d6f4;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    /*HOME PAGE*/
+    .homeBkg h1 {
+      font-size: 10vw;
+    }
+  
+    .homeBkg p {
+      font-size: 6vw;
+    }
+  
+    .testimonialsContainer {
+      width: 95%;
+      margin: auto;
+    }
+
+    /*ABOUT PAGE*/
+    .tyler .three, .sarah .three {
+      width: 100%;
+      margin: auto;
+    }
+  
+    /*INVENTORY PAGE*/
+    .inventoryBkg h3 {
+      white-space: nowrap;
+    }
+  
+    .inventoryMain {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    
+    .inventory {
+      display: grid;
+      grid-template-columns: 40% 1fr;
+      grid-gap: 2vw;
+    }
+    
+    .columnRight {
+      display: flex;
+      flex-direction: row;
+      grid-column-start: span 2;
+      justify-content: space-around;
+    }
+  
+      /*CONTACT US PAGE*/  
+      .contactMain {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      
+      .logistics {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 2vw;
+      }
+      
+      .address, .phoneNumber, .emailAddress {
+        margin-top: 2vw;
+      }
+      
+      .address .fa-map-marker-alt, .phoneNumber .fa-phone, 
+      .emailAddress .fa-envelope {
+        font-size: 2.5em;
+      }
+      
+      .logistics a {
+        font-size: 2vw;
+      }
+      
+      form {
+        width: 90%;
+        margin: 3vw auto;
+      }
+  
+    /*FOOTER*/
+    .contact {
+      font-size: 1em;
+    }
+  
+    .socialMedia a {
+      font-size: 1em;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+/*HOME PAGE*/
+.testimonials img {
+  width: 100%;
+  height: auto;
+}
+  /*ABOUT PAGE*/
+  .aboutBkg {
+    font-size: 3em;
+  }
+
+  .companyProfile img {
+    display: none;
+  }
+
+  .companyProfile h2 {
+    margin-bottom: 2vw;
+    text-align: center;
+  }
+
+  /*QUALITIES SECTION*/
+  .aboutContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .qualitiesGrid {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-top: 2em;
+  }
+
+  .item1 img, .item2 img,
+  .item3 img {
+    max-width: 100%;
+    height: 60vh;
+  }
+
+  .item3 p {
+    margin-bottom: 2em;
+  }
+
+  .timeline::after {
+    left: 31px;
+  }
+
+  .containerProgress::before {
+    top: 18px;
+    left: 45px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .containerProgress {
+    width: 100%;
+  }
+
+  .left::after,
+  .right::after {
+    left: 15px;
+  }
+
+  .right {
+    left: 0%;
+  }
+
+  /*FLOOR PLANS PAGE*/
+  .floorPlansBkg p {
+    font-size: 8vw;
+  }
+
+  .tyler .card-img-top, .sarah .card-img-top,
+  .joel .card-img-top {
+    max-width: 100%;
+    height: auto;
+    max-height: 55vh;
+  }
+
+  .tyler .cards p, .sarah .cards p,
+  .joel .cards p {
+    font-size: 3vw;
+  }
+
+  .tyler .card-title, .sarah .card-title,
+  .joel .card-title {
+    margin: 0;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .floorPlanGrid {
+    display: grid;
+    grid-template: auto auto auto / auto auto;
+    height: 33vh;
+  }
+
+  .floorPlanGrid .columnOne p {
+    margin: 0;
+    font-size: 3.5vw;
+  }
+
+  .floorPlanGrid .columnTwo p {
+    margin: 0 0 0 15vw;
+    font-size: 3.5vw;
+  }
+
+  .floorPlanGrid .columnThree {
+    width: 100%;
+    grid-column: 1 / 3;
+  }
+
+  .floorPlanGrid .columnThree a {
+    margin: 2vw 0 0 0;
+    width: 100%;
+  }
+
+  /* INVENTORY PAGE*/
+  .inventoryBkg h3 {
+    font-size: 8.5vw;
+  }
+
+  .inventoryMain {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .inventory {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 100%;
+    border: 1vw solid #353638;
+  }
+
+  .columnLeft {
+    order: 1;
+    -webkit-order: 1;
+  }
+  
+  .inventory img {
+    width: 100%;
+    height: auto;
+  }
+
+  .inventory .columnRight span {
+    font-size: 3vw;
+  }
+  
+  .columnLeft p {
+    margin: 0;
+  }
+
+  .columnRight {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  /*CONTACT US PAGE*/ 
+  .contactBkg > h3 {
+    font-size: 11vw;
+  }
+  
+  .contactBkg p {
+    font-size: 5vw;
+  }
+  
+  form {
+    width: 100%;
+  }
+
+.logistics .fa-map-marker-alt, 
+.logistics .fa-phone,
+.logistics .fa-envelope {
+  font-size: 5vw;
+}  
+  
+  #message {
+    height: 7vw;
+  }
+
+  /*FOOTER*/
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact {
+    font-size: 1em;
+  }
+
+  .socialMedia {
+    padding: 0;
+  }
+
+  .socialMedia a {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /*HOME PAGE*/
+  .buildSomething h3 {
+    font-size: 6.5vw;
+    white-space: nowrap;
+  }
+
+  /*ABOUT PAGE*/
+  .aboutBkg p {
+    font-size: 8vw;
+  }
+
+  .item1 img, .item2 img,
+  .item3 img {
+    max-width: 100%;
+    height: auto;
+  } 
+
+  /*OUR PROCESS PAGE*/
+  .ourProcessBkg p {
+    white-space: wrap;
+    font-size: 10vw;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+  }
+
+  /*FLOOR PLAN PAGE*/
+  .floorPlanGrid {
+    display: grid;
+    grid-template: auto auto auto / auto auto;
+    height: auto;
+  }
+
+  /*CONTACT PAGE*/
+  .logistics .fa-phone, .logistics .fa-envelope {
+    margin-top: 10px;
+  }
+}
